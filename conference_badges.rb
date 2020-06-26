@@ -3,7 +3,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  names = ["Edsger", "Adagreetings = [] # initialize greetings as an empty array
+  names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+  greetings = [] # initialize greetings as an empty array
   names.each do |name| # for each name in the names array
     greetings <<  badge_maker(name)# add a greeting for that name
   end
